@@ -178,7 +178,7 @@ export class PieSeriesComponent implements OnChanges {
 
     return `
       <span class="tooltip-label">${label}</span>
-      <span class="tooltip-val">${val}</span>
+      <span class="tooltip-val"></span>
     `;
   }
 

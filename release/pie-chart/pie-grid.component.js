@@ -54,7 +54,7 @@ var PieGridComponent = /** @class */ (function (_super) {
         var data = _a.data;
         var label = trimLabel(formatLabel(data.name));
         var val = data.value.toLocaleString();
-        return "\n      <span class=\"tooltip-label\">" + label + "</span>\n      <span class=\"tooltip-val\">" + val + "</span>\n    ";
+        return "\n      <span class=\"tooltip-label\">" + label + "</span>\n      <span class=\"tooltip-val\"></span>\n    ";
     };
     PieGridComponent.prototype.getDomain = function () {
         return this.results.map(function (d) { return d.name; });

@@ -140,7 +140,7 @@ export class PieGridComponent extends BaseChartComponent {
     const val = data.value.toLocaleString();
     return `
       <span class="tooltip-label">${label}</span>
-      <span class="tooltip-val">${val}</span>
+      <span class="tooltip-val"></span>
     `;
   }
 

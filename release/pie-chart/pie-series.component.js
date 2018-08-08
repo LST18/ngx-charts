@@ -98,7 +98,7 @@ var PieSeriesComponent = /** @class */ (function () {
     PieSeriesComponent.prototype.defaultTooltipText = function (myArc) {
         var label = this.label(myArc);
         var val = formatLabel(myArc.data.value);
-        return "\n      <span class=\"tooltip-label\">" + label + "</span>\n      <span class=\"tooltip-val\">" + val + "</span>\n    ";
+        return "\n      <span class=\"tooltip-label\">" + label + "</span>\n      <span class=\"tooltip-val\"></span>\n    ";
     };
     PieSeriesComponent.prototype.color = function (myArc) {
         return this.colors.getColor(this.label(myArc));
